@@ -1,7 +1,6 @@
 import dynamic from 'next/dynamic';
 
 const Scene = dynamic(() => import('../components/Scene.jsx'), {
-	loading: () => <p>loading</p>,
 	ssr: false,
 });
 export default function HomePage() {

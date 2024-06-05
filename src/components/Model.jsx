@@ -24,7 +24,7 @@ export default function Model() {
 	return (
 		<group scale={viewport.width / 3.75}>
 			<Text
-				font="/fonts/TitilliumWeb-italic.ttf"
+				font="/fonts/TitilliumWeb-Italic.ttf"
 				position={[0, 1, -1]}
 				fontSize={0.3}
 				color="white"
